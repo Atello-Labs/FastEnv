@@ -33,5 +33,4 @@ The goal of v0.5 is to make `fastenv` context-aware, robust against unintended e
 
 ---
 
-## Architecture Overview (v0.5)
 
