@@ -44,3 +44,13 @@ func (s *Store) Exist(hash string) (bool, error) {
 	}
 	return true, nil
 }
+
+func (s *Store) ReadStore() *Store {
+
+	if _, err := s; err != nil {
+		return nil
+	}
+
+	return &Store{BaseDir: s.BaseDir}
+
+}

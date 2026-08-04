@@ -49,5 +49,5 @@ func main() {
 	}
 
 	fmt.Printf("Successfully linked .ven -> %s\n", targetPath)
-
+	fmt.Println("My new favorite.")
 }

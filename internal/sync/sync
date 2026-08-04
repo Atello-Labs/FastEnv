@@ -1,0 +1,19 @@
+package sync
+
+import (
+		"fmt"
+		"fastenv/internal/builder"
+		"fastenv/internal/hasher"
+		"fastenv/internal/linker"
+		"fastenv/internal/store"
+		
+
+)
+
+type Sync struct {
+
+	test string
+}
+
+
+
