@@ -48,6 +48,5 @@ func main() {
 		log.Fatalf("Error: %v", err)
 	}
 
-	fmt.Printf("Successfully linked .ven -> %s\n", targetPath)
-	fmt.Println("My new favorite.")
+	fmt.Printf("Successfully linked .venv -> %s\n", targetPath)
 }
